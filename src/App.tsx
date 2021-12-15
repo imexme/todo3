@@ -20,13 +20,11 @@ function App() {
         setTasks(filteredTasks);
     }
 
-    function addTask (title:string){
-         let newTask = {id: v1(),
-             title: title,
-             isDone: false }
-         let newTasks = [newTask, ...tasks]
-         setTasks(newTasks)
-     }
+    function addTask () {
+        let newTask = {id: v1(), title: "GraphQL", isDone: false}
+        let newTasks = [newTask, ...tasks]
+        setTasks(newTasks)
+    }
 
    // function isDoneChange (id:string isDone: boolean)
    //  {
