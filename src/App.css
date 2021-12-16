@@ -7,22 +7,22 @@
   margin-right: 50px;
 }
 
+.error {
+  border: red 2px solid
+}
 
-/*.error {*/
-/*  border: red 1px solid*/
-/*}*/
+.errorMessage {
+  color: red;
 
-/*.errorMessage {*/
-/*  border: red*/
+}
+.is-done {
+  opacity: 0.5;
+}
 
-/*}*/
+.error:focus {
+  outline: none;
+}
 
-/*.is-done {*/
-/*  opacity: 0.5;*/
-/*}*/
-
-
-/*.error:focus {*/
-/*  outline: none;*/
-/*}*/
-
+.active-filter {
+  background-color: rgb(150, 100, 156);
+}
